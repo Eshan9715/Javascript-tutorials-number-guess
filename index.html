@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Number Guessing Game</title>
+
+        <!--font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- custom css file link-->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Guess the Number</h1>
+            <p>Guess a random number between 1 and 100.</p>
+            <p >Guesses Remaining </p>
+            <div class="circle">
+                <span class="lastResult">10</span>
+            </div>
+
+            <!-- <p>You have 10 attempts to guess the right number.</p> -->
+            </br>
+        </div>
+       
+           
+        <div id="wrapper">
+            <form class="form">
+                <input type="text" id="guessField" class="guessField"></br>
+                <input type="submit" id="subt" value="Submit" class="guessSubmit">
+                <input type="submit" id="newGame" value="New Game" class="newGame">
+
+            </form>
+    
+            <div class="resultParas">
+                <p >Previous Guesses</p>
+                <span class="guesses"></span>
+                <p class="lowOrHi"></p>
+            </div>
+        </div>
+    
+            
+        
+                
+
+        <!--custom js file link -->
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
