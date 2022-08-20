@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background: url(abc.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: block;
+
+}
+
+h1 {
+    color: rgb(247, 246, 250);
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: burlywood;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(200, 10, 10);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+   
+  }
+
+.lastResult {
+    color: rgb(254, 248, 248);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+
+}
+.message{
+    background: red;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%, 100% 99%,0% 100%, 7% 50%, 0% 0%);
+
+}
+
+
+
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    color: rgb(6, 0, 0);
+    font-size: 25px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#subt,#newGame {
+    background-color: rgb(21, 8, 138);
+    color: rgb(247, 242, 242);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 30px;
+}
+
+#newGame:hover{
+    color: rgb(50, 9, 134);
+    background-color: white;
+    border: 2px solid black;
+}
+
+#subt:hover{
+    color: rgb(50, 9, 134);
+    background-color: white;
+    border: 2px solid black;
+}
+
+#guessField {
+    color: #000;
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 10px;
+    font-size: 45px;
+    border: 3px solid #7f8181;
+    text-align: center;
+}
+
+
+
+.guesses {
+    color: rgb(239, 236, 236);
+}
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+    #wrapper {
+      width: 100%;
+      margin-top: 0;
+    }
+    h1,p{
+        width: 100%;
+    }
+  }
